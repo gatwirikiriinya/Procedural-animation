@@ -73,7 +73,7 @@ public class AnimateCharacter : MonoBehaviour
     {
         if (other.CompareTag("obstacle"))
         {
-            Debug.LogWarning("Collision About to happen");
+            Debug.LogWarning("Obstacle on the way");
             canTurn = true;
             originalTurn = false;
         }
